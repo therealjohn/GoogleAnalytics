@@ -1,3 +1,4 @@
 obj/
 *.exe
 *.mdb
+*.userprefs
