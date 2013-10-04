@@ -94,193 +94,193 @@ namespace GoogleAnalytics
         [Static, Export("customMetricForIndex:")]
         string CustomMetricForIndex(uint index);
 
-        [Field("kGAIUseSecure", "__Internal")]
+        [Field("GAIUseSecure", "__Internal")]
         NSString UseSecure { get; }
 
-        [Field("kGAIHitType", "__Internal")]
+        [Field("GAIHitType", "__Internal")]
         NSString HitType { get; }
 
-        [Field("kGAITrackingId", "__Internal")]
+        [Field("GAITrackingId", "__Internal")]
         NSString TrackingId { get; }
 
-        [Field("kGAIClientId", "__Internal")]
+        [Field("GAIClientId", "__Internal")]
         NSString ClientId { get; }
 
-        [Field("kGAIAnonymizeIp", "__Internal")]
+        [Field("GAIAnonymizeIp", "__Internal")]
         NSString AnonymizeIp { get; }
 
-        [Field("kGAISessionControl", "__Internal")]
+        [Field("GAISessionControl", "__Internal")]
         NSString SessionControl { get; }
 
-        [Field("kGAIScreenResolution", "__Internal")]
+        [Field("GAIScreenResolution", "__Internal")]
         NSString ScreenResolution { get; }
 
-        [Field("kGAIViewportSize", "__Internal")]
+        [Field("GAIViewportSize", "__Internal")]
         NSString ViewportSize { get; }
 
-        [Field("kGAIEncoding", "__Internal")]
+        [Field("GAIEncoding", "__Internal")]
         NSString Encoding { get; }
 
-        [Field("kGAIScreenColors", "__Internal")]
+        [Field("GAIScreenColors", "__Internal")]
         NSString ScreenColors { get; }
 
-        [Field("kGAILanguage", "__Internal")]
+        [Field("GAILanguage", "__Internal")]
         NSString Language { get; }
 
-        [Field("kGAIJavaEnabled", "__Internal")]
+        [Field("GAIJavaEnabled", "__Internal")]
         NSString JavaEnabled { get; }
 
-        [Field("kGAIFlashVersion", "__Internal")]
+        [Field("GAIFlashVersion", "__Internal")]
         NSString FlashVersion { get; }
 
-        [Field("kGAINonInteraction", "__Internal")]
+        [Field("GAINonInteraction", "__Internal")]
         NSString NonInteraction { get; }
 
-        [Field("kGAIReferrer", "__Internal")]
+        [Field("GAIReferrer", "__Internal")]
         NSString Referrer { get; }
 
-        [Field("kGAILocation", "__Internal")]
+        [Field("GAILocation", "__Internal")]
         NSString Location { get; }
 
-        [Field("kGAIHostname", "__Internal")]
+        [Field("GAIHostname", "__Internal")]
         NSString Hostname { get; }
 
-        [Field("kGAIPage", "__Internal")]
+        [Field("GAIPage", "__Internal")]
         NSString Page { get; }
 
-        [Field("kGAIDescription", "__Internal")]
+        [Field("GAIDescription", "__Internal")]
         NSString Description { get; }
 
-        [Field("kGAIScreenName", "__Internal")]
+        [Field("GAIScreenName", "__Internal")]
         NSString ScreenName { get; }
 
-        [Field("kGAITitle", "__Internal")]
+        [Field("GAITitle", "__Internal")]
         NSString Title { get; }
 
-        [Field("kGAIAppName", "__Internal")]
+        [Field("GAIAppName", "__Internal")]
         NSString AppName { get; }
 
-        [Field("kGAIAppVersion", "__Internal")]
+        [Field("GAIAppVersion", "__Internal")]
         NSString AppVersion { get; }
 
-        [Field("kGAIAppId", "__Internal")]
+        [Field("GAIAppId", "__Internal")]
         NSString AppId { get; }
 
-        [Field("kGAIAppInstallerId", "__Internal")]
+        [Field("GAIAppInstallerId", "__Internal")]
         NSString AppInstallerId { get; }
 
-        [Field("kGAIEventCategory", "__Internal")]
+        [Field("GAIEventCategory", "__Internal")]
         NSString EventCategory { get; }
 
-        [Field("kGAIEventAction", "__Internal")]
+        [Field("GAIEventAction", "__Internal")]
         NSString EventAction { get; }
 
-        [Field("kGAIEventLabel", "__Internal")]
+        [Field("GAIEventLabel", "__Internal")]
         NSString EventLabel { get; }
 
-        [Field("kGAIEventValue", "__Internal")]
+        [Field("GAIEventValue", "__Internal")]
         NSString EventValue { get; }
 
-        [Field("kGAISocialNetwork", "__Internal")]
+        [Field("GAISocialNetwork", "__Internal")]
         NSString SocialNetwork { get; }
 
-        [Field("kGAISocialAction", "__Internal")]
+        [Field("GAISocialAction", "__Internal")]
         NSString SocialAction { get; }
 
-        [Field("kGAISocialTarget", "__Internal")]
+        [Field("GAISocialTarget", "__Internal")]
         NSString SocialTarget { get; }
 
-        [Field("kGAITransactionId", "__Internal")]
+        [Field("GAITransactionId", "__Internal")]
         NSString TransactionId { get; }
 
-        [Field("kGAITransactionAffiliation", "__Internal")]
+        [Field("GAITransactionAffiliation", "__Internal")]
         NSString TransactionAffiliation { get; }
 
-        [Field("kGAITransactionRevenue", "__Internal")]
+        [Field("GAITransactionRevenue", "__Internal")]
         NSString TransactionRevenue { get; }
 
-        [Field("kGAITransactionShipping", "__Internal")]
+        [Field("GAITransactionShipping", "__Internal")]
         NSString TransactionShipping { get; }
 
-        [Field("kGAITransactionTax", "__Internal")]
+        [Field("GAITransactionTax", "__Internal")]
         NSString TransactionTax { get; }
 
-        [Field("kGAICurrencyCode", "__Internal")]
+        [Field("GAICurrencyCode", "__Internal")]
         NSString CurrencyCode { get; }
 
-        [Field("kGAIItemPrice", "__Internal")]
+        [Field("GAIItemPrice", "__Internal")]
         NSString ItemPrice { get; }
 
-        [Field("kGAIItemQuantity", "__Internal")]
+        [Field("GAIItemQuantity", "__Internal")]
         NSString ItemQuantity { get; }
 
-        [Field("kGAIItemSku", "__Internal")]
+        [Field("GAIItemSku", "__Internal")]
         NSString ItemSku { get; }
 
-        [Field("kGAIItemName", "__Internal")]
+        [Field("GAIItemName", "__Internal")]
         NSString ItemName { get; }
 
-        [Field("kGAIItemCategory", "__Internal")]
+        [Field("GAIItemCategory", "__Internal")]
         NSString ItemCategory { get; }
 
-        [Field("kGAICampaignSource", "__Internal")]
+        [Field("GAICampaignSource", "__Internal")]
         NSString CampaignSource { get; }
 
-        [Field("kGAICampaignMedium", "__Internal")]
+        [Field("GAICampaignMedium", "__Internal")]
         NSString CampaignMedium { get; }
 
-        [Field("kGAICampaignName", "__Internal")]
+        [Field("GAICampaignName", "__Internal")]
         NSString CampaignName { get; }
 
-        [Field("kGAICampaignKeyword", "__Internal")]
+        [Field("GAICampaignKeyword", "__Internal")]
         NSString CampaignKeyword { get; }
 
-        [Field("kGAICampaignContent", "__Internal")]
+        [Field("GAICampaignContent", "__Internal")]
         NSString CampaignContent { get; }
 
-        [Field("kGAICampaignId", "__Internal")]
+        [Field("GAICampaignId", "__Internal")]
         NSString CampaignId { get; }
 
-        [Field("kGAITimingCategory", "__Internal")]
+        [Field("GAITimingCategory", "__Internal")]
         NSString TimingCategory { get; }
 
-        [Field("kGAITimingVar", "__Internal")]
+        [Field("GAITimingVar", "__Internal")]
         NSString TimingVar { get; }
 
-        [Field("kGAITimingValue", "__Internal")]
+        [Field("GAITimingValue", "__Internal")]
         NSString TimingValue { get; }
 
-        [Field("kGAITimingLabel", "__Internal")]
+        [Field("GAITimingLabel", "__Internal")]
         NSString TimingLabel { get; }
 
-        [Field("kGAIExDescription", "__Internal")]
+        [Field("GAIExDescription", "__Internal")]
         NSString ExDescription { get; }
 
-        [Field("kGAIExFatal", "__Internal")]
+        [Field("GAIExFatal", "__Internal")]
         NSString ExFatal { get; }
 
-        [Field("kGAISampleRate", "__Internal")]
+        [Field("GAISampleRate", "__Internal")]
         NSString SampleRate { get; }
 
-        [Field("kGAIAppView", "__Internal")]
+        [Field("GAIAppView", "__Internal")]
         NSString AppView { get; }
 
-        [Field("kGAIEvent", "__Internal")]
+        [Field("GAIEvent", "__Internal")]
         NSString Event { get; }
 
-        [Field("kGAISocial", "__Internal")]
+        [Field("GAISocial", "__Internal")]
         NSString Social { get; }
 
-        [Field("kGAITransaction", "__Internal")]
+        [Field("GAITransaction", "__Internal")]
         NSString Transaction { get; }
 
-        [Field("kGAIItem", "__Internal")]
+        [Field("GAIItem", "__Internal")]
         NSString Item { get; }
 
-        [Field("kGAIException", "__Internal")]
+        [Field("GAIException", "__Internal")]
         NSString Exception { get; }
 
-        [Field("kGAITiming", "__Internal")]
+        [Field("GAITiming", "__Internal")]
         NSString Timing { get; }
     }
 
