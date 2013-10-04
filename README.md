@@ -11,6 +11,10 @@ This is a Xamarin.iOS Binding Project. Create a solution and add an "Existing Pr
 Getting Started
 ===============
 
+Include the `.dll`.
+
+    using GoogleAnalytics;
+
 You can specify the settings like this:
 
     GAI.SharedInstance.TrackUncaughtExceptions = true;
