@@ -13,18 +13,15 @@ Getting Started
 
 You can specify the settings like this:
 
-``` lang csharp
-GAI.SharedInstance.TrackUncaughtExceptions = true;
-GAI.SharedInstance.DispatchInterval = 20;
-...
-```
+    GAI.SharedInstance.TrackUncaughtExceptions = true;
+    GAI.SharedInstance.DispatchInterval = 20;
+    ...
 
 To send a page view:
 
-``` lang csharp
-var tracker = GAI.SharedInstance.TrackerWithTrackerId("UA-XXXXX-YY"); // Input your GA tracking Id. 
-tracker.Set(GAIFields.ScreenName, "MyHomeScreen");
-tracker.Send(GAIDictionaryBuilder.CreateAppView().Build());
-```
+    var tracker = GAI.SharedInstance.TrackerWithTrackerId("UA-XXXXX-YY"); // Input your GA tracking Id. 
+    tracker.Set(GAIFields.ScreenName, "MyHomeScreen");
+    tracker.Send(GAIDictionaryBuilder.CreateAppView().Build());
+
 
 
