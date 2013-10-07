@@ -25,7 +25,7 @@ GAI.SharedInstance.DispatchInterval = 20;
 To send a page view:
 
 ```cs
-var tracker = GAI.SharedInstance.TrackerWithTrackerId("UA-XXXXX-YY"); // Input your GA tracking Id. 
+var tracker = GAI.SharedInstance.TrackerWithTrackingId("UA-XXXXX-YY"); // Input your GA tracking Id. 
 tracker.Set(GAIFields.ScreenName, "MyHomeScreen");
 tracker.Send(GAIDictionaryBuilder.CreateAppView().Build());
 ```
@@ -33,7 +33,7 @@ tracker.Send(GAIDictionaryBuilder.CreateAppView().Build());
 To send an event:
 
 ```cs
-var tracker = GAI.SharedInstance.TrackerWithTrackerId("UA-XXXXX-YY"); // Input your GA tracking Id. 
+var tracker = GAI.SharedInstance.TrackerWithTrackingId("UA-XXXXX-YY"); // Input your GA tracking Id. 
 tracker.Send(GAIDictionaryBuilder.CreateEventWithCategory("TestCategory1", "TestingAction1", "TestLabel1", 0).Build());
 ```
 
