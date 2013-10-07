@@ -2,6 +2,8 @@
 
 Xamarin.iOS Binding Project for Google Analytics 3.01
 
+*Note: This has only been tested using Xamarin.iOS Version: 7.0.1.4*
+
 ## Building
 
 This is a Xamarin.iOS Binding Project. Open the solution, build the project, use the built `.dll` in your Xamarin.iOS app. A built `.dll` is also already in the bin directory if you can't build for some reason.  
